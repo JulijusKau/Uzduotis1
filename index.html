@@ -1,0 +1,83 @@
+<!-- Neišėjo padaryti 2 dalykų: 1) input placeholder'ių patalpinti viršuje,
+    kai yra vedamas tekstas. 2) Log In submit mygtuko opacity transition tik
+    įvedus reikiamus laukus (Dabar padaryta tiesiog per hover) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewInstagram</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <div class="Login">
+        <img
+          id="Logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/800px-Instagram_logo.svg.png"
+          alt="Instagram logo"
+        />
+        <form id="Form" action="" method="post">
+          <label for="NumberNameEmail"></label>
+          <input
+            type="text"
+            maxlength="40"
+            required
+            placeholder="Phone number, username, or email"
+            id="NumberNameEmail"
+            name="NumberNameEmail"
+          />
+          <label for="password"></label>
+          <input
+            type="password"
+            required
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+          <button type="submit" id="BUTTON">Log in</button>
+        </form>
+        <span id="OR">OR</span>
+        <a href="https://twitter.com/" id="fb">
+          <img
+            id="FBLogo"
+            src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"
+            alt="Facebook Logo"
+          />Log in with Facebook</a
+        >
+        <a href="https://www.instagram.com/accounts/password/reset/" id="forgot"
+          >Forgot password?</a
+        >
+        <span></span>
+      </div>
+      <div class="Signup">
+        <span
+          >Don't have an account?<a
+            href="https://www.instagram.com/accounts/emailsignup/"
+          >
+            Sign up</a
+          ></span
+        >
+      </div>
+      <div class="Footer">
+        <span>Get the app.</span>
+        <div>
+          <a
+            href="https://l.instagram.com/?u=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.instagram.android%26referrer%3Dutm_source%253Dinstagramweb%2526utm_campaign%253DloginPage%2526ig_mid%253DBCACBDBE-BC80-48D7-BD27-C88C7570FEBF%2526utm_content%253Dlo%2526utm_medium%253Dbadge&e=AT2SiciOLu7v8zGJSL13LHyMV5BeXJGxHru-uyQf_qPUVLXH20oaPj5tpGUVxxYS2HP_w1Wx5h5gDwzGdmibvgPg-YSc6Dx8HBhgUkg49yUs5huIqxZn3s7up9HSj8Rw6bC-s53TOqrtoddHe8BGoQ"
+            ><img
+              src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+              alt="Get it on Google Play"
+          /></a>
+          <a
+            href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1920%2C1020"
+            ><img
+              style="width: 110px"
+              src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"
+              alt="Downlaod from Microsoft"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
