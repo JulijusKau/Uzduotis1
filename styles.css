@@ -27,7 +27,6 @@ body {
 .Login form {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   width: 270px;
   height: 80px;
   margin-top: 20px;
@@ -56,7 +55,6 @@ input:focus::placeholder {
 }
 
 #BUTTON {
-  align-items: stretch;
   color: white;
   font-weight: bold;
   background-color: #3e77f1;
@@ -104,8 +102,7 @@ input:focus::placeholder {
   text-decoration: none;
   font-weight: 500;
   font-size: 1.7ch;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   margin-right: 30px;
 }
 
